@@ -24,7 +24,7 @@ function init() {
   // your code here
   
   body.addEventListener('keydown', function(e) {
-    console.log(e.which);
+    console.log(e.key);
     //alert('test');
     if (e.key === codes[index]) {
       index++;
