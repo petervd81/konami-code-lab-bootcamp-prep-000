@@ -25,12 +25,12 @@ function init() {
   
   body.addEventListener('keydown', function(e) {
     console.log(e.key);
-    alert('test');
+    //alert('test');
     if (e.key === codes[index]) {
       index++;
       
       if (index === codes.length) {
-        alert('yesss you did it!');
+        //alert('yesss you did it!');
         console.log('konami');
         index = 0;
       }
