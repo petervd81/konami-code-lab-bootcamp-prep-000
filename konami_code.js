@@ -30,7 +30,7 @@ function init() {
       index++;
       
       if (index === codes.length) {
-        //alert('yesss you did it!');
+        alert('yesss you did it!');
         console.log('konami');
         index = 0;
       }
